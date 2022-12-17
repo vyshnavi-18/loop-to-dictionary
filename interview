@@ -1,0 +1,180 @@
+# n=int(input("enter any num"))
+# i=0
+# sum=0
+# while i<n:
+#     m=int(input("enter any num"))
+#     sum=sum+m
+#     i=i+1
+# print(sum)
+
+  
+# a=[2,3,4,[5,2],3]
+# i=0
+# b=0
+# while i<len(a):
+#     # sum=0
+#     j=0
+#     while j<(a[i]):
+#         sum=sum+a[i]+a[j]
+#         b.append(a[i])
+#         j=j+1
+#     i=i+1
+# print(sum)   
+
+# def table():
+#       i=1
+#       a=int(input("enter any num"))
+#       while i<=10:
+#             print(a,"*",i,"=",a*i)
+#             i=i+1   
+# table()
+
+# a=["shi56","m3n","pv3"]
+# i=0
+# b=[]
+# while i<len(a):
+#   if a[i]!=0:
+#     b.append(a[i])
+#     i=i+1
+# print(b)
+# i=0
+# b=[]
+# # s=""
+# while i<len(a):
+#       if type (a[i]==list):
+#         j=0
+#         s=""
+#         while j<len(a):
+#             if a[i][j]>="a" and a[i][j]<="z":
+#                   s=s+a[i][j]  
+#             j=j+1
+#         b.append(s)   
+#         i=i+1
+# print(b) 
+
+# # a=[103,102,105,107]
+# # i=0
+# # l=[]
+# # while i<len(a):
+# #     b=str(a[i])
+# #     if '0'in b:
+# #         l.append((b.replace("0"," ")))
+# #     i+=1   
+# # print(l)
+
+# a=[1,2,3,4,5,6]
+# i=0
+# # max=0
+# max1=0
+# max2=0
+# max3=0
+# while i<len(a):
+#       if a[i]>max1:
+#             max1=a[i]
+#       if a[i]!=max1 and a[i]>max2:
+#             max2=a[i]
+#       if a[i]!=max1 and a[i]!=max2 and a[i]>max3:
+#             max3=a[i]
+#       i=i+1
+# print(max1)
+# print(max2)
+# print(max3)
+
+
+# ele=int(input("no.of.element"))
+# a=[]
+# i=0
+# while i<ele:
+#     list=int(input("no.of.list"))
+#     b=[]
+#     j=0
+#     while j<list:
+#         n=int(input("enter a num"))
+#         b.append(n)
+#         j=j+1
+#     a.append(b)
+#     i=i+1
+# print(a)
+      
+# a="priya"
+# b=[]
+# i=0
+# s=0
+# while i<len(a):
+#       s+=2
+#       b.append(a[i])
+#       b.append(s)
+#       i+=1
+
+    
+#     b.append(i*2)
+#     i=i+2
+# print(b) 
+
+# a=[2,3,4,[4,5,3]]
+# i=0
+# b=[]
+# while i<len(a):
+#       # if type(a[i])==list:
+#             j=0
+#             while j<len(a[i]):
+#                b.append(a[i][j])
+#                j=+1
+#       # else:
+#             b.append(a[i])
+#             i=i+1
+# print(b)
+
+# a=[2,4,5,3,6,7]
+# i=-3
+# b=[]
+# while i<0:
+#       # i<0
+#       b.append (a[i])
+#       i=i-1
+# print(a[-3::-1])
+
+# a=["python is language"]
+# i=-1
+# c=[]
+# while i<0:
+#       b=a[i]::=1
+#       c.append(b)
+#       i=i-1
+# print(c)
+
+# a=[2,3,4,[4,5,6]]
+# i=0
+# b=[]
+# while i<len(a):
+#       if type(a[i])==list:
+#             j=0
+#             while j<len(a[i]):
+#                   b.append(a[i][j])
+#                   j+=1
+#       else:
+#             b.append(a[i])
+#       i+=1
+# print(b)
+
+# a="python is language"
+# b=a[::-1]
+# c=[]
+# i=-1
+# while i>-len(a):
+#     c.append(b)
+#     i-=1
+#     break
+# print(c)
+
+a=[[1,4,7],[6,8,4],[3,9,5]]
+i=0
+b=[]
+while i<len(a):
+    j=0
+    while j<len(a[i]):
+        b.append(a[i][j])
+        j+=1
+    i+=1
+print(b)
+  
